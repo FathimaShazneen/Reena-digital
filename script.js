@@ -600,8 +600,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------------------------------------------------------------------------
   const saveCalendarBtn = document.getElementById('saveCalendarBtn');
   if (saveCalendarBtn) {
-    const title = encodeURIComponent("Wedding & Nikah of SAFA AAMINA & FAAZIL ABOOBAKER");
-    const details = encodeURIComponent("You are warmly invited to celebrate the Wedding and Nikah ceremony of SAFA AAMINA & FAAZIL ABOOBAKER at TMA Pai Conventional Centre, Mangalore.");
+    const title = encodeURIComponent("Wedding & Nikah of Haniya & Shaheer Ibrahim");
+    const details = encodeURIComponent("You are warmly invited to celebrate the Wedding and Nikah ceremony of Haniya & Shaheer Ibrahim at TMA Pai Conventional Centre, Mangalore.");
     const location = encodeURIComponent("TMA Pai Conventional Centre, MG Road, Kodailbail, Mangaluru, Karnataka");
     // 24 December 2026 11:30 AM IST (UTC+5:30) is 20261224T060000Z
     const gcalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=20261224T060000Z/20261224T110000Z&details=${details}&location=${location}`;
